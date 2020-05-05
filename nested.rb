@@ -118,7 +118,7 @@ def changing_alan
       }
     }
     
-programmer_hash[:alan_kay][:known_for]["Object Orientation"] = "GUI"
+programmer_hash[:alan_kay][:known_for] = "GUI"
 
 end
 
@@ -142,6 +142,6 @@ def adding_to_dennis
       }
     }
 
-programmer_hash[dennis_ritchie][languages]["Assembly"] = 1
+programmer_hash[:dennis_ritchie][:languages]["Assembly"] = 1
 
 end
